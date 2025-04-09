@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/obj/Debug/net8.0/scopedcss/projectbundle/DesafioPollysoft2.bundle.scp.css",
+      "PackagePath": "staticwebassets/DesafioPollysoft2.bundle.scp.css"
+    },
+    {
+      "Id": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/images/Vector.png",
+      "PackagePath": "staticwebassets/images/Vector.png"
+    },
+    {
+      "Id": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/images/imagemDesafio.png",
+      "PackagePath": "staticwebassets/images/imagemDesafio.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.DesafioPollysoft2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.DesafioPollysoft2.props",
+      "PackagePath": "build\\DesafioPollysoft2.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.DesafioPollysoft2.props",
+      "PackagePath": "buildMultiTargeting\\DesafioPollysoft2.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.DesafioPollysoft2.props",
+      "PackagePath": "buildTransitive\\DesafioPollysoft2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

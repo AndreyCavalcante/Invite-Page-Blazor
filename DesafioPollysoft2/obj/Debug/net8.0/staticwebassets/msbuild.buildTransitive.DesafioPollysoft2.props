@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../buildMultiTargeting/DesafioPollysoft2.props" />
+</Project>

@@ -1,0 +1,93 @@
+﻿@page "/"
+@using Microsoft.AspNetCore.Components.Forms
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-7 no_space">
+            <div class="container_image">
+                <img src="images/imagemDesafio.png"/>
+            </div>
+
+            <div class="convite-card">
+                <h2 class="fw-bold sub-title">Convite</h2>
+                <p>
+                    Você foi convidado por <strong>João Silva</strong> para comparecer à Associação Viking no dia
+                    <strong>17/05/2024 - 09:00</strong> no espaço <strong>Churrasqueira 01</strong>.
+                </p>
+
+                <hr />
+
+                <div class="mb-4">
+                    <p><strong>Data:</strong><br />17/05/2024 - 9:00</p>
+                    <p><strong>Local:</strong><br />Associação Viking, Churrasqueira 01 - <a href="#">Veja como chegar</a></p>
+                </div>
+
+                <hr/>
+                
+                <h5 class="fw-bold sub-title">Sobre a Associação Viking</h5>
+                <div class="d-flex align-items-start">
+                    <div class="row_sobre">
+                        <div class="col-3">
+                            <img src="images/Vector.png" alt="Logo Viking" width="80" class="me-3"/>
+                        </div>
+                        <div class="col-9">
+                            <p class="mb-0">
+                                Localizada em Curitiba, a Associação Viking é uma organização fundada em 1980 por empregados brasileiros e suecos da Volvo do Brasil.
+                                Conhecida pela sua excelente infraestrutura de lazer e esportes, além de um calendário intenso de eventos sociais e esportivos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <a class="d-block mt-2" href="#">Saiba mais</a>
+            </div>
+            
+            
+        </div>
+        <div class="col-lg-5 no_space">
+            <div class="convite-card bg-light">
+                <h5 class="fw-bold sub-title">Seus convidados</h5>
+                <p>Você pode convidar até <strong>3 pessoas</strong> para este convite. Informe o nome completo abaixo.</p>
+                <p class="small">
+                    Caso confirme sua presença, solicite ao anfitrião o QR code de acesso à Associação Viking referente a este convite.
+                </p>
+                <p class="small">
+                    Para mais informações, consulte o <a href="#">regimento interno da Associação Viking</a>.
+                </p>
+
+                <div class="aviso my-3">
+                    <strong>Atenção:</strong> Não será permitido o acesso à Associação Viking para participantes não identificados.
+                </div>
+
+                <h6 class="fw-bold sub-title convidado">Maria Silva e família</h6>
+                <InputText class="form-control mb-2" @bind-Value="convidado1" placeholder="Convidado 1" />
+                <InputText class="form-control mb-2" @bind-Value="convidado2" placeholder="Convidado 2" />
+                <InputText class="form-control mb-3" @bind-Value="convidado3" placeholder="Convidado 3" />
+
+                <h6>Confirmar presença?</h6>
+                <p class="text-danger small">
+                    Confirme sua presença até <strong>16/05/2024 - 23:59</strong>.
+                </p>
+
+                <button class="btn btn-outline-danger btn-custom" @onclick="Recusar">Recusar convite</button>
+                <button class="btn btn-primary btn-custom" @onclick="Confirmar">Estarei presente</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string convidado1;
+    private string convidado2;
+    private string convidado3;
+
+    private void Confirmar()
+    {
+        Console.WriteLine("Confirmado com:");
+        Console.WriteLine($"{convidado1}, {convidado2}, {convidado3}");
+    }
+
+    private void Recusar()
+    {
+        Console.WriteLine("Convite recusado.");
+    }
+}
