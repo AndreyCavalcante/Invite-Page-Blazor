@@ -1,0 +1,18 @@
+.container_image[b-0lvyymqia7] {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+}
+
+.container_image img[b-0lvyymqia7] {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 90%;
+}
+
+@media (max-width: 648px){
+    .container_image img[b-0lvyymqia7] {
+        top: 0;
+    }
+}

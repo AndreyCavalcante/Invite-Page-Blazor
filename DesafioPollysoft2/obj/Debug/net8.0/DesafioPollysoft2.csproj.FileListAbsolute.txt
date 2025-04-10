@@ -26,3 +26,6 @@
 /home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/obj/Debug/net8.0/DesafioPollysoft2.pdb
 /home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/obj/Debug/net8.0/DesafioPollysoft2.genruntimeconfig.cache
 /home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/obj/Debug/net8.0/ref/DesafioPollysoft2.dll
+/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/obj/Debug/net8.0/DesafioPollysoft2.sourcelink.json
+/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/obj/Debug/net8.0/scopedcss/Components/Imagens/Imagem.razor.rz.scp.css
+/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/obj/Debug/net8.0/scopedcss/Components/Layout/ImagemLayout.razor.rz.scp.css

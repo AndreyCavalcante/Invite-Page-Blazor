@@ -1,3 +1,35 @@
+/* _content/DesafioPollysoft2/Components/Imagens/Imagem.razor.rz.scp.css */
+.container_image[b-6o92s0bpu2] {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.container_image img[b-6o92s0bpu2] {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+}
+/* _content/DesafioPollysoft2/Components/Layout/ImagemLayout.razor.rz.scp.css */
+.container_image[b-0lvyymqia7] {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
+}
+
+.container_image img[b-0lvyymqia7] {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 90%;
+}
+
+@media (max-width: 648px){
+    .container_image img[b-0lvyymqia7] {
+        top: 0;
+    }
+}
 /* _content/DesafioPollysoft2/Components/Layout/MainLayout.razor.rz.scp.css */
 .page[b-i72ptnpoqf] {
     position: relative;

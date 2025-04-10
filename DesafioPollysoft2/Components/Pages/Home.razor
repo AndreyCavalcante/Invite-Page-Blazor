@@ -1,14 +1,13 @@
 ﻿@page "/"
 @using Microsoft.AspNetCore.Components.Forms
+@using DesafioPollysoft2.Components.Layout
 
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-7 no_space">
-            <div class="container_image">
-                <img src="images/imagemDesafio.png"/>
-            </div>
+            <ImagemLayout/>
 
-            <div class="convite-card">
+            <div class="convite-card margin-edit">
                 <h2 class="fw-bold sub-title">Convite</h2>
                 <p>
                     Você foi convidado por <strong>João Silva</strong> para comparecer à Associação Viking no dia
@@ -35,15 +34,15 @@
                                 Localizada em Curitiba, a Associação Viking é uma organização fundada em 1980 por empregados brasileiros e suecos da Volvo do Brasil.
                                 Conhecida pela sua excelente infraestrutura de lazer e esportes, além de um calendário intenso de eventos sociais e esportivos.
                             </p>
+                            <a class="d-block mt-2" href="#">Saiba mais</a>
                         </div>
                     </div>
                 </div>
-                <a class="d-block mt-2" href="#">Saiba mais</a>
             </div>
             
             
         </div>
-        <div class="col-lg-5 no_space">
+        <div class="col-lg-5 no_space convite">
             <div class="convite-card bg-light">
                 <h5 class="fw-bold sub-title">Seus convidados</h5>
                 <p>Você pode convidar até <strong>3 pessoas</strong> para este convite. Informe o nome completo abaixo.</p>
@@ -63,13 +62,17 @@
                 <InputText class="form-control mb-2" @bind-Value="convidado2" placeholder="Convidado 2" />
                 <InputText class="form-control mb-3" @bind-Value="convidado3" placeholder="Convidado 3" />
 
-                <h6>Confirmar presença?</h6>
-                <p class="text-danger small">
-                    Confirme sua presença até <strong>16/05/2024 - 23:59</strong>.
-                </p>
+                <div class="text-center">
+                    <h6>Confirmar presença?</h6>
+                    <p class="text-danger small">
+                        Confirme sua presença até <strong>16/05/2024 - 23:59</strong>.
+                    </p>
+                </div>
 
-                <button class="btn btn-outline-danger btn-custom" @onclick="Recusar">Recusar convite</button>
-                <button class="btn btn-primary btn-custom" @onclick="Confirmar">Estarei presente</button>
+                <div class="d-flex">
+                    <button class="btn btn-outline-danger btn-custom" @onclick="Recusar">Recusar convite</button>
+                    <button class="btn btn-primary btn-custom" @onclick="Confirmar">Estarei presente</button>
+                </div>
             </div>
         </div>
     </div>

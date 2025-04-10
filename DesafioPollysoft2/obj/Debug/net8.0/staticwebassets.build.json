@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HzRbkE+1Zr+kiPUEvOo57sDeH/5BRhDh5cV90TJiZk8=",
+  "Hash": "LXjZUcejbOqhT0fB7dXFt7XfDQH+oDC11Obwqbq3vrU=",
   "Source": "DesafioPollysoft2",
   "BasePath": "_content/DesafioPollysoft2",
   "Mode": "Default",
@@ -148,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/imagemDesafio.png"
+    },
+    {
+      "Identity": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/images/imagemDesafioWeb.png",
+      "SourceId": "DesafioPollysoft2",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/",
+      "BasePath": "_content/DesafioPollysoft2",
+      "RelativePath": "images/imagemDesafioWeb.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/imagemDesafioWeb.png"
     },
     {
       "Identity": "/home/andrey/RiderProjects/DesafioPollysoft2/DesafioPollysoft2/wwwroot/images/Vector.png",

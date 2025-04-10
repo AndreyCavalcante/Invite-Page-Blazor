@@ -1,0 +1,12 @@
+.container_image[b-6o92s0bpu2] {
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+}
+
+.container_image img[b-6o92s0bpu2] {
+    position: absolute;
+    top: -50px;
+    left: 0;
+    width: 100%;
+}
